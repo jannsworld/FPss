@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/pic.css">
+  <link rel="stylesheet" href="./css/default.css">
+
+
+</head>
+<BODY>
+    <div class="container">
+        <section id="main" class="mx-auto my-5 py-5 px-3">
+            <form name="uploadForm" id="uploadForm" enctype="multipart/form-data" method="post">
+            <table class="table" width="100%" border="1px">
+                <tbody id="fileTableTbody">
+                    <tr>
+                        <td id="dropZone">
+                            얼굴이 나온 사진을 여기에 드래그 후 사진 등록을 클릭해 주세요
+                            <br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        </section>
+        <a href="#" onclick="uploadFile(); return false;" class="btn btn-primary mt-3 mx-auto">사진 등록하기</a>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="./js/pic.js" charset="utf-8"> </script>
+
+</BODY>
+</HTML>
+
